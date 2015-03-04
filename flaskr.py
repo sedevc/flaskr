@@ -37,11 +37,5 @@ def teardown_request(exception):
         db.close()
 # ******************************
 
-
-
-
-
-
-
 if __name__ == '__main__':
     app.run()
